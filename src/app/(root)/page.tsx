@@ -10,11 +10,11 @@ import SubscribeSection from './component/subscribeSection/SubscribeSection'
 import FooterSection from '@/common/footerSection/FooterSection'
 function page() {
     return (
-        <div className='w-full'>
+        <div className='w-full '>
 
-            <section className="w-full flex   justify-center">
+            <section className="w-full flex   justify-center ">
 
-                <div className='max-w-[920px] w-full'>
+                <div className='px-3 lg:px-0 max-w-[936px] w-full'>
                     <Header></Header>
                 </div>
 
@@ -22,53 +22,50 @@ function page() {
 
             {/* HeroSection */}
 
-            <section className="w-full h-full flex   justify-center">
+            <section className="w-full h-full flex bg-[#fefcfb] pb-20 justify-center ">
 
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full '>
                     <HeroSection></HeroSection>
+                    
                 </div>
 
             </section>
 
-            {/* ThingsYouNeedSection */}
 
 
+            {/* 
             <section className="w-full h-full flex  justify-center">
-
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full'>
                     <ThingsYouNeedSection></ThingsYouNeedSection>
                 </div>
-
             </section>
 
-            {/* DealsAndDiscout */}
             <section className="w-full h-full flex justify-center">
 
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full'>
                     <DealsAndDiscountSection></DealsAndDiscountSection>
                 </div>
 
             </section>
 
+
             <section className="w-full h-full flex justify-center">
 
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full'>
                     <BestVacationPlanSection />
                 </div>
 
             </section>
 
             <section className="w-full flex justify-center">
-
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full'>
                     <PeopleSayAboutSection />
                 </div>
-
             </section>
 
             <section className="w-full flex justify-center">
 
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full'>
                     <LatestblogSection></LatestblogSection>
                 </div>
 
@@ -76,7 +73,7 @@ function page() {
 
             <section className="w-full flex justify-center">
 
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full'>
                     <SubscribeSection />
                 </div>
 
@@ -84,11 +81,11 @@ function page() {
 
             <section className="w-full flex justify-center">
 
-                <div className='max-w-[920px] w-full'>
+                <div className='max-w-[936px] w-full'>
                     <FooterSection />
                 </div>
 
-            </section>
+            </section> */}
 
 
 

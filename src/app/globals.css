@@ -3,13 +3,16 @@
 /* global.css */
 
 @theme {
-  --color-primary: #6754A4;
-  --color-secondary: #9588C0;
-  --color-lighter:"#FAF5FF";
-  --bg-primary: #6754A4;
-  --bg-secondary: #9588C0;
-  --bg-lighter:"purple-50";
+  --breakpoint-xs: 360px;
+  --breakpoint-dxs: 400px;
+  --breakpoint-txs: 500px;
+  --breakpoint-dsm: 704px;
+  --breakpoint-dmd: 896px;
 
+  --color-primary: #f97436;
+  --color-secondary: #6d6d6d;
+  --bg-primary: #f97436;
+  --bg-secondary: #6d6d6d;
 }
 
 /* Poppins Fonts */
@@ -180,8 +183,6 @@
   font-family: Volkhov-Regular;
 }
 
-
-
 /* Utility Classes */
 @utility font-inter-black {
   font-family: Inter-Black;
@@ -219,6 +220,16 @@
   font-family: Inter-Thin;
 }
 
+
+
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
 body {
   font-family: Poppins-Regular;
+  
 }

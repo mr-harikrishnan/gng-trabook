@@ -1,5 +1,5 @@
 import React, { lazy } from 'react'
-import vectorLogo from "@/assets/Vector.png"
+import vectorLogo from "@/assets/header/Vector.png"
 import Image from 'next/image'
 
 function Logo() {

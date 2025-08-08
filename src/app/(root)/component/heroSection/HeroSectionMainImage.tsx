@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import heroSectionMainImgae from "@/assets/heroSectionMainImage.png"
-import bgFlightImage from "@/assets/bgFlightImage.png"
+import heroSectionMainImgae from "@/assets/heroSection/heroSectionMainImage.png"
+import bgFlightImage from "@/assets/heroSection/secOneBgFlightImage.png"
 
 const HeroSectionMainImage = () => {
     return (

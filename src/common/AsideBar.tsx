@@ -1,7 +1,5 @@
 import React from 'react'
-import Logo from './Logo'
-import Button from './Button'
-import vectorLogo from "@/assets/Vector.png"
+import vectorLogo from "@/assets/header/Vector.png"
 import Image from 'next/image'
 
 type TypeProps = {
@@ -13,7 +11,7 @@ type TypeProps = {
 function AsideBar({ sideBar, setSideBar, toggleSideBar }: TypeProps) {
   return (
     <>
-      <div className={`fixed ${sideBar == true ? "flex" : "hidden"} pb-4    lg:hidden flex-col justify-between top-[0px] left-[0px] w-65 bg-white shadow-lg h-full overflow-y-hidden   px-2 pl-4 z-[20] `}>
+      <div className={`fixed ${sideBar ? "flex" : "hidden"} pb-4 lg:hidden flex-col justify-between top-0 left-0 w-65 bg-white shadow-lg h-screen  px-2 pl-4 z-[20]`}>
         <div>
           <div className='w-full flex justify-between mt-2 '>
             <div className='flex justify-center cursor-pointer items-center gap-2'>

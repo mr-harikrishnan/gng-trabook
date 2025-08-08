@@ -26,20 +26,19 @@ function page() {
 
                 <div className='max-w-[936px] w-full '>
                     <HeroSection></HeroSection>
-                    
+
                 </div>
 
             </section>
 
 
-
-            {/* 
-            <section className="w-full h-full flex  justify-center">
+            <section className="w-full h-full pb-22 flex bg-[#f7f8fc]  justify-center">
                 <div className='max-w-[936px] w-full'>
                     <ThingsYouNeedSection></ThingsYouNeedSection>
                 </div>
             </section>
 
+            {/* 
             <section className="w-full h-full flex justify-center">
 
                 <div className='max-w-[936px] w-full'>

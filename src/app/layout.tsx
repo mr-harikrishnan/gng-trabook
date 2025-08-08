@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+      <body className="overflow-y-auto no-scrollbar"
       >
         {children}
       </body>

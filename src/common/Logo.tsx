@@ -5,9 +5,9 @@ import Image from 'next/image'
 function Logo() {
   return (
     <>
-    <div className='flex gap-2 items-center'>
-      <h1 className='font-volkhov-bold text-[1]'>Terbook</h1>
-      <Image src={vectorLogo} height={15} width={15} alt='vectorLogo'></Image>
+    <div className='flex gap-2 items-center cursor-pointer'>
+      <h1 className='font-volkhov-bold text-[19.5px]'>Trabook</h1>
+      <Image src={vectorLogo} height={16} width={16} className='min-w-4'  alt='vectorLogo'></Image>
     </div>
     </>
   )

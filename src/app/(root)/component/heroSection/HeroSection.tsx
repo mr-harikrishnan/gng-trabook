@@ -2,24 +2,31 @@ import Button from '@/common/Button'
 import FilterBar from '@/common/FilterBar'
 import Header from '@/common/Header'
 import React from 'react'
+import HeroSectionMainImage from './HeroSectionMainImage'
 
 function HeroSection() {
   return (
     <>
       <div>
-        <div className='w-full flex'>
-          <div className='flex gap-4 flex-col w-full'>
-            <h1 className='font-volkhov-bold text-[40px]'>Get started your exciting journey
+        <div className='w-full flex flex-col pt-10  
+        lg:flex-row lg:pt-[69px]'>
+
+
+          <div className='lg:order-1 lg:w-[50%] r'>
+            <HeroSectionMainImage />
+          </div>
+          <div className='flex gap-4 flex-col w-full items-center lg:items-start lg:w-[50%] pt-8 px-2  lg:px-0 '>
+            <h1 className='font-volkhov-bold text-[30px] text-center lg:text-[51px] lg:text-start lg:leading-14'>Get started your exciting<span className='text-primary'> journey </span>
               with us.
             </h1>
-            <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place. </p>
-            <Button></Button>
-          </div>
-          <div className='w-full'>
-            <div className='p-60 border'></div>
+            <p className='lg:text-start  lg:max-w-[27.5rem] md:max-w-[40rem] text-center leading-8 lg:mt-2.5 text-secondary'>A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place. </p>
+
+            <div className='lg:mt-[35px] w-full flex justify-center lg:justify-start'>
+              <Button bgColour={"white"} borderColour={"primary"} text={'Discover Now'} textColour={'primary'}></Button>
+            </div>
           </div>
         </div>
-        <div className='w-full flex justify-center'>
+        <div className=' flex justify-center'>
           <FilterBar></FilterBar>
         </div>
       </div>

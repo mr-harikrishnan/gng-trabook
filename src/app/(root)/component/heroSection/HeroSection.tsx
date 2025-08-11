@@ -7,7 +7,7 @@ import HeroSectionMainImage from './HeroSectionMainImage'
 function HeroSection() {
   return (
     <>
-      <div>
+      <div className=''>
         <div className='w-full flex flex-col pt-10  
         lg:flex-row lg:pt-[69px]'>
 

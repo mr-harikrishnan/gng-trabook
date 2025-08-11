@@ -38,7 +38,7 @@ function page() {
                 </div>
             </section>
 
-            
+
             <section className="w-full pb-22 bg-[#fefcfb] flex justify-center">
 
                 <div className='max-w-[936px] w-full'>
@@ -46,16 +46,17 @@ function page() {
                 </div>
 
             </section>
-{/* 
 
-            <section className="w-full h-full flex justify-center">
 
-                <div className='max-w-[936px] w-full'>
+            <section className="w-full h-full flex bg-[#fffaf7] justify-center">
+
+                <div className='max-w-[936px]  pb-22 w-full'>
                     <BestVacationPlanSection />
                 </div>
 
             </section>
 
+            {/* 
             <section className="w-full flex justify-center">
                 <div className='max-w-[936px] w-full'>
                     <PeopleSayAboutSection />

@@ -38,15 +38,15 @@ function page() {
                 </div>
             </section>
 
-            {/* 
-            <section className="w-full h-full flex justify-center">
+            
+            <section className="w-full pb-22 bg-[#fefcfb] flex justify-center">
 
                 <div className='max-w-[936px] w-full'>
                     <DealsAndDiscountSection></DealsAndDiscountSection>
                 </div>
 
             </section>
-
+{/* 
 
             <section className="w-full h-full flex justify-center">
 

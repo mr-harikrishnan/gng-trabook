@@ -34,7 +34,7 @@ function ThingsYouNeedCard({ data }: TypeProps) {
 
         <div className='mt-9.5'>
           <h1 className='font-poppins-semibold text-[19px]'>{data.headLine}</h1>
-          <p className='text-[13px] text-secondary mt-4'>{data.description}</p>
+          <p className='text-[13px] text-secondary mt-4  min-h-14'>{data.description}</p>
         </div>
 
       </div>

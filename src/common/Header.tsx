@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import Logo from './Logo'
-import Button from './Button'
 import AsideBar from './AsideBar'
 
 function Header() {

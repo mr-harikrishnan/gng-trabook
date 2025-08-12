@@ -5,7 +5,6 @@ import img3 from "@/assets/dealsAndDiscountSection/Card image3.png"
 import img4 from "@/assets/dealsAndDiscountSection/Card Image4.png"
 import LeftAero from '@/common/LeftAero'
 import RightAero from '@/common/RightAero'
-import Image from 'next/image'
 import DealsAndDiscountCard from './DealsAndDiscountCard'
 
 

@@ -1,4 +1,3 @@
-import { url } from 'inspector'
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 

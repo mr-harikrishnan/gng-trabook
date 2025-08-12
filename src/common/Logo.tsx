@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React from 'react'
 import vectorLogo from "@/assets/header/Vector.png"
 import Image from 'next/image'
 

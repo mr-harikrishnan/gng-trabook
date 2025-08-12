@@ -3,33 +3,7 @@ import Logo from '../Logo'
 
 function ContactSection() {
 
-    const ContactData = [
-        {
-            title: "Company",
-            items: [
-                "About",
-                "Careers",
-                "Logistic",
-                "Privacy & Policy"
-            ]
-        },
-        {
-            title: "Contact",
-            items: [
-                "Help/FAQ",
-                "Press",
-                "Affiliates"
-            ]
-        },
-        {
-            title: "More",
-            items: [
-                "Press Centre",
-                "Our Blog",
-                "Low fare tips"
-            ]
-        }
-    ];
+    
 
     return (
         <>

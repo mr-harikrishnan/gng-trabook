@@ -57,7 +57,7 @@ function page() {
             </section>
 
 
-            <section className="w-full flex h-full lg:h-screen pb-22 bg-[#f7f8fc] justify-center ">
+            <section className="w-full flex h-full  pb-32 bg-[#f7f8fc] justify-center ">
                 <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <PeopleSayAboutSection />
                 </div>

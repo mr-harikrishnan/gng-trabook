@@ -12,12 +12,13 @@ function AsideBar({ sideBar, toggleSideBar }: TypeProps) {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 w-65 bg-white shadow-lg h-screen px-2 pl-4 z-[20] flex flex-col justify-between
-        transition-transform duration-300 ease-in-out
-        ${sideBar ? "translate-x-0" : "-translate-x-full"}
-         lg:hidden
-                   `}
+        className={`fixed top-0 left-0 w-65 bg-white shadow-lg min-h-screen pb-5 px-2 pl-4 z-[20] 
+  flex flex-col justify-between overflow-y-auto
+  transition-transform duration-300 ease-in-out
+  ${sideBar ? "translate-x-0" : "-translate-x-full"}
+  lg:hidden`}
       >
+
         <div>
           <div className='w-full flex justify-between mt-2 '>
             <div className='flex justify-center cursor-pointer mt-5.5 items-center gap-2'>

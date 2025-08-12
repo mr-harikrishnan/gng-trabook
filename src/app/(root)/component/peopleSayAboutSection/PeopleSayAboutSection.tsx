@@ -36,7 +36,7 @@ function PeopleSayAboutSection() {
 
   return (
     <>
-      <div className='w-full flex flex-col md:flex-row items-center px-3 pt-22 lg:px-0 '>
+      <div className='w-full flex flex-col md:flex-row items-center  pt-22 lg:px-0 '>
 
         <div className=" flex flex-col w-full items-center lg:items-start lg:w-[44%]  mt-2 lg:mt-1.5 pl-[7px]">
           <div className='w-full flex flex-col '>
@@ -50,9 +50,9 @@ function PeopleSayAboutSection() {
           </div>
         </div>
 
-        <div className="w-full px-12 lg;px-0 dsm:pl-20 lg:pl-0 flex items-center lg:w-[56%] ">
+        <div className="w-full flex items-center lg:w-[56%] ">
 
-          <div className='w-full  px-10 pl-9 pt-[22px]  relative'>
+          <div className='w-full  px-10  pt-[22px]  relative'>
 
             <div className="absolute hidden xl:block top-[-52px] lg:top-[-58px] lg:right-[-98]">
               <Image src={flightImage.src} width={135} height={135} alt="flight element" />

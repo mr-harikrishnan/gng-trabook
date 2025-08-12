@@ -61,7 +61,7 @@ function DealsAndDiscountSection() {
           journey.
         </p>
       </div>
-      <div className="grid grid-cols-1 dxs:grid-cols-2 lg:grid-cols-4 px-6 lg:px-0 gap-4 sm:gap-6 mt-6 sm:mt-13 w-full max-w-7xl">
+      <div className="grid grid-cols-1 dxs:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-6 sm:mt-13 w-full max-w-7xl">
         {deals.map((deal) => (
           <DealsAndDiscountCard data={deal}></DealsAndDiscountCard>
         ))}

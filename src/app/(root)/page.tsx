@@ -63,22 +63,25 @@ function page() {
                 </div>
             </section>
 
-            {/* 
-            <section className="w-full flex justify-center">
 
-                <div className='max-w-[936px] w-full'>
+            <section className="w-full flex h-full  pb-22 bg-[#fefcfb] justify-center ">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <LatestblogSection></LatestblogSection>
                 </div>
 
             </section>
 
-            <section className="w-full flex justify-center">
 
-                <div className='max-w-[936px] w-full'>
+
+            <section className="w-full flex h-full   bg-[#fefcfb] justify-center bg-[linear-gradient(to_bottom,_#fefcfb_50%,_#f7f8fc_50%)]">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <SubscribeSection />
                 </div>
-
             </section>
+
+            {/* 
+            bg-[linear-gradient(to_bottom,_#fefcfb_50%,_#f7f8fc_50%)]
+            
 
             <section className="w-full flex justify-center">
 

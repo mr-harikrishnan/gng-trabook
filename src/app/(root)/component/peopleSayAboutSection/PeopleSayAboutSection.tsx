@@ -38,23 +38,23 @@ function PeopleSayAboutSection() {
     <>
       <div className='w-full flex flex-col md:flex-row items-center px-3 pt-22 lg:px-0 '>
 
-        <div className=" flex flex-col w-full items-center lg:w-[44%]  mt-2 pl-1">
+        <div className=" flex flex-col w-full items-center lg:items-start lg:w-[44%]  mt-2 lg:mt-1.5 pl-[7px]">
           <div className='w-full flex flex-col '>
-            <h1 className="font-volkhov-bold text-center text-[38px] leading-11">What people say</h1>
-            <h1 className="font-volkhov-bold text-center text-[38px]  leading-11"><span className='text-primary'> about us.</span></h1>
+            <h1 className="font-volkhov-bold text-center lg:text-start text-[38px] leading-11">What people say</h1>
+            <h1 className="font-volkhov-bold text-center lg:text-start text-[38px]  leading-11"><span className='text-primary'> about us.</span></h1>
           </div>
-          <p className='text-[12px] text-gray-500 leading-6 max-w-80 mt-4'>Our Clients send us bunch of smilies with our services and we love them.</p>
-          <div className='w-full flex justify-center mb-6 gap-6 mt-7'>
+          <p className='text-[13.5px] tracking-[0.025rem] text-gray-500 font-Roboto-Regular leading-6 max-w-80 mt-5'>Our Clients send us bunch of smilies with our services and we love them.</p>
+          <div className='w-full flex justify-center lg:justify-start mb-6 gap-6 mt-7'>
             <LeftAero></LeftAero>
             <RightAero></RightAero>
           </div>
         </div>
 
-        <div className="w-full dsm:pl-20 lg:pl-0 flex items-center lg:w-[56%] ">
+        <div className="w-full px-12 lg;px-0 dsm:pl-20 lg:pl-0 flex items-center lg:w-[56%] ">
 
           <div className='w-full  px-10 pl-9 pt-[22px]  relative'>
 
-            <div className="absolute hidden xl:block top-[-52px] lg:right-0 xl:right-[-132px]">
+            <div className="absolute hidden xl:block top-[-52px] lg:top-[-58px] lg:right-[-98]">
               <Image src={flightImage.src} width={135} height={135} alt="flight element" />
             </div>
 
@@ -64,7 +64,7 @@ function PeopleSayAboutSection() {
             </div>
 
             {/* Front card */}
-            <div className='border w-full border-gray-100 max-w-[500px] shadow-md p-6 bg-white rounded-lg z-[2] relative'>
+            <div className='border w-full border-gray-100 max-w-[500px] lg:max-w-[400px] shadow-b p-6 bg-white rounded-lg z-[2] relative'>
 
               <p className='text-[13px] font-poppins-regular leading-6'>{reviewData[0].
                 review}</p>
@@ -73,11 +73,11 @@ function PeopleSayAboutSection() {
             </div>
 
             {/* back card */}
-            <div className='absolute top-25 left-19 z-[1] border max-w-[500px] border-gray-100 shadow-md p-6 bg-white rounded-lg  '>
+            <div className='absolute top-25 left-19 z-[1] opacity-30 border max-w-[500px] lg:max-w-[400px] lg:max-h-[180px] border-gray-100 shadow-md p-6 bg-white rounded-lg  '>
 
               <p className='text-[13px] font-poppins-regular leading-6'>{reviewData[0].
                 review}</p>
-              <h1 className='font-inter-semibold text-[15px] mt-8'>{reviewData[0].name}</h1>
+              <h1 className='font-inter-semibold text-[15px] mt-6'>{reviewData[0].name}</h1>
               <p className='text-[12px] mb-[5px]'>{reviewData[0].place}</p>
             </div>
           </div>

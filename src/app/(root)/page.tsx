@@ -12,9 +12,9 @@ function page() {
     return (
         <div className='w-full '>
 
-            <section className="w-full flex   justify-center ">
+            <section className="w-full flex justify-center ">
 
-                <div className='px-3 lg:px-0 max-w-[936px] w-full'>
+                <div className=' px-7 lg:px-0 max-w-[936px] w-full'>
                     <Header></Header>
                 </div>
 
@@ -24,7 +24,7 @@ function page() {
 
             <section className="w-full h-full  flex bg-[#fefcfb] pb-20 justify-center ">
 
-                <div className='max-w-[936px]  bg-[#fefcfb] w-full '>
+                <div className='max-w-[936px] px-7 lg:px-0 bg-[#fefcfb] w-full '>
                     <HeroSection></HeroSection>
 
                 </div>
@@ -32,53 +32,56 @@ function page() {
             </section>
 
 
-            <section className="w-full h-full pb-22 flex bg-[#f7f8fc]  justify-center">
-                <div className='max-w-[936px] w-full'>
+            <section className="w-full h-full  pb-22 flex bg-[#f7f8fc]  justify-center">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <ThingsYouNeedSection></ThingsYouNeedSection>
                 </div>
             </section>
 
 
-            <section className="w-full pb-22 bg-[#fefcfb] flex justify-center">
+            <section className="w-full pb-22  bg-[#fefcfb] flex justify-center">
 
-                <div className='max-w-[936px] w-full'>
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <DealsAndDiscountSection></DealsAndDiscountSection>
                 </div>
 
             </section>
 
 
-            <section className="w-full h-full flex bg-[#fffaf7] justify-center">
+            <section className="w-full h-full  flex bg-[#fffaf7] justify-center">
 
-                <div className='max-w-[936px]  pb-27 w-full'>
+                <div className='max-w-[936px] px-7 lg:px-0 pb-27 w-full'>
                     <BestVacationPlanSection />
                 </div>
 
             </section>
 
 
-            <section className="w-full flex h-full lg:h-screen pb-22 bg-[#f7f8fc] justify-center ">
-                <div className='max-w-[936px] w-full'>
+            <section className="w-full flex h-full  pb-32 bg-[#f7f8fc] justify-center ">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <PeopleSayAboutSection />
                 </div>
             </section>
 
-            {/* 
-            <section className="w-full flex justify-center">
 
-                <div className='max-w-[936px] w-full'>
+            <section className="w-full flex h-full  pb-22 bg-[#fefcfb] justify-center ">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <LatestblogSection></LatestblogSection>
                 </div>
 
             </section>
 
-            <section className="w-full flex justify-center">
 
-                <div className='max-w-[936px] w-full'>
+
+            <section className="w-full flex h-full   bg-[#fefcfb] justify-center bg-[linear-gradient(to_bottom,_#fefcfb_50%,_#f7f8fc_50%)]">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
                     <SubscribeSection />
                 </div>
-
             </section>
+
+            {/* 
+            bg-[linear-gradient(to_bottom,_#fefcfb_50%,_#f7f8fc_50%)]
+            
 
             <section className="w-full flex justify-center">
 

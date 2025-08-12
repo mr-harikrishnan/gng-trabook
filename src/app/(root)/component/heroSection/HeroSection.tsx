@@ -7,12 +7,12 @@ import HeroSectionMainImage from './HeroSectionMainImage'
 function HeroSection() {
   return (
     <>
-      <div>
+      <div className=''>
         <div className='w-full flex flex-col pt-10  
         lg:flex-row lg:pt-[69px]'>
 
 
-          <div className='lg:order-1 lg:w-[50%] r'>
+          <div className='lg:order-1 lg:w-[50%] '>
             <HeroSectionMainImage />
           </div>
           <div className='flex gap-4 flex-col w-full items-center lg:items-start lg:w-[50%] pt-8 px-2  lg:px-0 '>

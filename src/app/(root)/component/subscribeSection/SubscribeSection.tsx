@@ -22,7 +22,7 @@ function SubscribeSection() {
                                     <input type="text" placeholder='Enter your mail' className='focus:outline-none focus:ring-0 w-full pl-1 h-full placeholder:-#a4a4a4 text-[13px]' />
                                 </div>
                                 <div className='sm:w-max w-full'>
-                                    <button className=' w-full sm:w-[105px]  h-[40px] font-poppins-light text-white bg-primary rounded-lg text-[13px]'>Subscribe</button>
+                                    <button className='cursor-pointer w-full sm:w-[105px]  h-[40px] font-poppins-light text-white bg-primary rounded-lg text-[13px]'>Subscribe</button>
 
                                 </div>
                             </div>

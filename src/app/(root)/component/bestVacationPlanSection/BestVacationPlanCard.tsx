@@ -13,7 +13,7 @@ type Props = {
 const BestVacationPlanCard = ({ img, placeAndCountry, price, duration, rating }: Props) => {
   return (
     <div className="w-full bg-white rounded-xl shadow-md overflow-hidden">
-      <img src={typeof img === "string" ? img : img.src} alt={placeAndCountry} className="w-full  object-cover rounded-t-xl" />
+      <img src={typeof img === "string" ? img : img.src} alt={placeAndCountry} className="cursor-pointer w-full  object-cover rounded-t-xl" />
       <div className="px-5.5 py-4">
         <div className="flex justify-between items-center mb-1">
           <h3 className="text-[19px] font-poppins-medium">{placeAndCountry}</h3>

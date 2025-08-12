@@ -8,7 +8,7 @@ type TypeProps = {
   toggleSideBar: () => void;
 };
 
-function AsideBar({ sideBar, setSideBar, toggleSideBar }: TypeProps) {
+function AsideBar({ sideBar, toggleSideBar }: TypeProps) {
   return (
     <>
       <div

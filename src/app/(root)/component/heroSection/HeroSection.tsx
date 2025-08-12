@@ -1,6 +1,5 @@
 import Button from '@/common/Button'
 import FilterBar from '@/common/FilterBar'
-import Header from '@/common/Header'
 import React from 'react'
 import HeroSectionMainImage from './HeroSectionMainImage'
 

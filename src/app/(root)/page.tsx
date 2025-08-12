@@ -22,9 +22,9 @@ function page() {
 
             {/* HeroSection */}
 
-            <section className="w-full h-full flex bg-[#fefcfb] pb-20 justify-center ">
+            <section className="w-full h-full  flex bg-[#fefcfb] pb-20 justify-center ">
 
-                <div className='max-w-[936px] w-full '>
+                <div className='max-w-[936px]  bg-[#fefcfb] w-full '>
                     <HeroSection></HeroSection>
 
                 </div>
@@ -50,19 +50,20 @@ function page() {
 
             <section className="w-full h-full flex bg-[#fffaf7] justify-center">
 
-                <div className='max-w-[936px]  pb-22 w-full'>
+                <div className='max-w-[936px]  pb-27 w-full'>
                     <BestVacationPlanSection />
                 </div>
 
             </section>
 
-            {/* 
-            <section className="w-full flex justify-center">
+
+            <section className="w-full flex h-full lg:h-screen pb-22 bg-[#f7f8fc] justify-center ">
                 <div className='max-w-[936px] w-full'>
                     <PeopleSayAboutSection />
                 </div>
             </section>
 
+            {/* 
             <section className="w-full flex justify-center">
 
                 <div className='max-w-[936px] w-full'>

@@ -138,6 +138,12 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family:"Roboto-Regular";
+  src: url("../../public/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
 /* Utility Classes */
 @utility font-poppins-black {
   font-family: Poppins-Black;
@@ -218,6 +224,10 @@
 
 @utility font-inter-thin {
   font-family: Inter-Thin;
+}
+
+@utility font-Roboto-Regular {
+  font-family: Roboto-Regular;
 }
 
 

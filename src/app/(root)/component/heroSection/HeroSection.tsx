@@ -10,11 +10,6 @@ function HeroSection() {
       <div className=''>
         <div className='w-full flex flex-col pt-10  
         lg:flex-row lg:pt-[69px]'>
-
-
-          <div className='lg:order-1 lg:w-[50%] '>
-            <HeroSectionMainImage />
-          </div>
           <div className='flex gap-4 flex-col w-full items-center lg:items-start lg:w-[50%] pt-8 '>
             <h1 className='font-volkhov-bold text-[30px] text-center lg:text-[51px] lg:text-start lg:leading-14'>Get started your exciting<span className='text-primary'> journey </span>
               with us.
@@ -24,6 +19,9 @@ function HeroSection() {
             <div className='lg:mt-[35px] w-full flex justify-center lg:justify-start'>
               <Button bgColour={"white"} borderColour={"primary"} text={'Discover Now'} textColour={'primary'}></Button>
             </div>
+          </div>
+          <div className=' lg:w-[50%] mt-15'>
+            <HeroSectionMainImage />
           </div>
         </div>
         <div className=' flex justify-center'>

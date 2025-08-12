@@ -7,7 +7,8 @@ import BestVacationPlanSection from './component/bestVacationPlanSection/BestVac
 import PeopleSayAboutSection from './component/peopleSayAboutSection/PeopleSayAboutSection'
 import LatestblogSection from './component/latestblog/LatestblogSection'
 import SubscribeSection from './component/subscribeSection/SubscribeSection'
-import FooterSection from '@/common/footerSection/FooterSection'
+import ContactSection from '@/common/contactSection/ContactSection'
+import Footer from '@/common/Footer'
 function page() {
     return (
         <div className='w-full '>
@@ -79,18 +80,19 @@ function page() {
                 </div>
             </section>
 
-            {/* 
-            bg-[linear-gradient(to_bottom,_#fefcfb_50%,_#f7f8fc_50%)]
-            
-
-            <section className="w-full flex justify-center">
-
-                <div className='max-w-[936px] w-full'>
-                    <FooterSection />
+            <section className="w-full flex h-full  pb-22 bg-[#f7f8fc] justify-center ">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
+                    <ContactSection />
                 </div>
 
-            </section> */}
+            </section>
 
+            <section className="w-full flex h-full pb-5 bg-[#f7f8fc] justify-center ">
+                <div className='max-w-[936px] px-7 lg:px-0 w-full'>
+                    <Footer/>
+                </div>
+
+            </section>
 
 
 

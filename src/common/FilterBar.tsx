@@ -19,12 +19,12 @@ const SearchBar = () => {
           </div>
           <select
             defaultValue=""
-            className="text-[9.5px] text-gray-500 mt-[8px] bg-transparent appearance-none cursor-pointer w-full"
+            className="text-[9.5px] focus:outline-none  text-gray-500 mt-[8px] bg-transparent appearance-none cursor-pointer w-full"
           >
-            <option value="" disabled>Where are you going</option>
-            <option value="newyork">New York</option>
-            <option value="chicago">Chicago</option>
-            <option value="losangeles">Los Angeles</option>
+            <option className="" value="" disabled>Where are you going</option>
+            <option className="" value="newyork">New York</option>
+            <option className="" value="chicago">Chicago</option>
+            <option className="" value="losangeles">Los Angeles</option>
           </select>
         </div>
 
@@ -38,12 +38,12 @@ const SearchBar = () => {
           </div>
           <select
             defaultValue=""
-            className="text-[9.5px] text-gray-500 mt-[8px] bg-transparent appearance-none cursor-pointer w-full"
+            className="text-[9.5px] focus:outline-none text-gray-500 mt-[8px] bg-transparent appearance-none cursor-pointer w-full"
           >
-            <option value="" disabled>When you will go</option>
-            <option value="2025-08-10">August 10, 2025</option>
-            <option value="2025-08-11">August 11, 2025</option>
-            <option value="2025-08-12">August 12, 2025</option>
+            <option className="" value="" disabled>When you will go</option>
+            <option className="" value="2025-08-10">August 10, 2025</option>
+            <option className="" value="2025-08-11">August 11, 2025</option>
+            <option className="" value="2025-08-12">August 12, 2025</option>
           </select>
         </div>
 
@@ -57,13 +57,13 @@ const SearchBar = () => {
           </div>
           <select
             defaultValue=""
-            className="text-[9.5px] text-gray-500 mt-[8px] bg-transparent appearance-none cursor-pointer w-full"
+            className="text-[9.5px] focus:outline-none  text-gray-500 mt-[8px] bg-transparent appearance-none cursor-pointer w-full"
           >
-            <option value="" disabled>Number of guest</option>
-            <option value="1">1 Guest</option>
-            <option value="2">2 Guests</option>
-            <option value="3">3 Guests</option>
-            <option value="4">4 Guests</option>
+            <option className="" value="" disabled>Number of guest</option>
+            <option className="" value="1">1 Guest</option>
+            <option className="" value="2">2 Guests</option>
+            <option className="" value="3">3 Guests</option>
+            <option className="" value="4">4 Guests</option>
           </select>
         </div>
 

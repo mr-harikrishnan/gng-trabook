@@ -11,10 +11,16 @@ type TypeProps = {
 function AsideBar({ sideBar, setSideBar, toggleSideBar }: TypeProps) {
   return (
     <>
-      <div className={`fixed ${sideBar ? "flex" : "hidden"} pb-4 lg:hidden flex-col justify-between top-0 left-0 w-65 bg-white shadow-lg h-screen  px-2 pl-4 z-[20]`}>
+      <div
+        className={`fixed top-0 left-0 w-65 bg-white shadow-lg h-screen px-2 pl-4 z-[20] flex flex-col justify-between
+        transition-transform duration-300 ease-in-out
+        ${sideBar ? "translate-x-0" : "-translate-x-full"}
+         lg:hidden
+                   `}
+      >
         <div>
           <div className='w-full flex justify-between mt-2 '>
-            <div className='flex justify-center cursor-pointer items-center gap-2'>
+            <div className='flex justify-center cursor-pointer mt-5.5 items-center gap-2'>
               <h1 className='font-volkhov-bold text-[19.5px] text-primary'>Trabook</h1>
               <Image src={vectorLogo} height={16} width={16} alt='vectorLogo'></Image>
             </div>
@@ -22,7 +28,7 @@ function AsideBar({ sideBar, setSideBar, toggleSideBar }: TypeProps) {
             <div>
               <svg
                 onClick={toggleSideBar}
-                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 cursor-pointer">
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="gray" className="size-6 cursor-pointer">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
               </svg>
             </div>
@@ -30,11 +36,11 @@ function AsideBar({ sideBar, setSideBar, toggleSideBar }: TypeProps) {
 
           <div>
             <ul className=' text-[16px]  flex flex-col gap-8 ml-4 mt-8 '>
-              <li className='cursor-pointer hover:text-primary w-max'>Home</li>
-              <li className='cursor-pointer hover:text-primary w-max'>About</li>
-              <li className='cursor-pointer hover:text-primary w-max'>Destination</li>
-              <li className='cursor-pointer hover:text-primary w-max'>Tour</li>
-              <li className='cursor-pointer hover:text-primary w-max'>Blog</li>
+              <li className='cursor-pointer text-secondary hover:text-primary w-max'>Home</li>
+              <li className='cursor-pointer text-secondary hover:text-primary w-max'>About</li>
+              <li className='cursor-pointer text-secondary hover:text-primary w-max'>Destination</li>
+              <li className='cursor-pointer text-secondary hover:text-primary w-max'>Tour</li>
+              <li className='cursor-pointer text-secondary hover:text-primary w-max'>Blog</li>
             </ul>
           </div>
         </div>

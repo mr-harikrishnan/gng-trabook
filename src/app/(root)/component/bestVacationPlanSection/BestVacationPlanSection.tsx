@@ -57,7 +57,7 @@ function BestVacationPlanSection() {
 
 
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 px-6 lg:px-0 txs:grid-cols-2 mt-4.5 gap-6 w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-3  txs:grid-cols-2 mt-4.5 gap-6 w-full">
         {data.map((item, index) => (
           <BestVacationPlanCard key={index} {...item} />
         ))}

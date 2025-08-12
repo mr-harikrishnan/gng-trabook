@@ -6,7 +6,7 @@ import Button from "./Button"
 
 const SearchBar = () => {
   return (
-    <div className="w-full flex justify-center mt-12 px-8 lg:px-0">
+    <div className="w-full flex justify-center mt-12 ">
       <div className="w-full max-w-[42rem] bg-white shadow-md rounded-sm px-[19px] py-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 
         {/* Location */}

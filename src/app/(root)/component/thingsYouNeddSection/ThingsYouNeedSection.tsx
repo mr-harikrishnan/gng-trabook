@@ -41,7 +41,7 @@ function ThingsYouNeedSection() {
           <p className='text-center mt-3 text-secondary max-w-[30rem]'>We ensure that you&apos;ll embark on a perfectly planned, safe vacation at a price you can afford. </p>
         </div>
         <div>
-          <div className='w-full grid grid-cols-1 px-4 lg:px-0 sm:grid-cols-2 md:grid-cols-3  gap-7 mt-13.5 justify-center items-center'>
+          <div className='w-full grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3  gap-7 mt-13.5 justify-center items-center'>
             {
               cardData.map((data, index) => (
                 <ThingsYouNeedCard key={index} data={data}></ThingsYouNeedCard>

@@ -30,7 +30,7 @@ function page() {
             <section className="w-full h-full  flex bg-[#fefcfb] pb-20 justify-center ">
 
                 <div className='max-w-[936px] px-7 lg:px-0 bg-[#fefcfb] w-full '>
-                    <HeroSection></HeroSection>
+                    <HeroSection></HeroSection>;
 
                 </div>
 

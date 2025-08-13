@@ -15,6 +15,7 @@ function Header({setScroll}:TypeProps) {
 
   const toggleSideBar = () => {
     setSideBar(!sideBar)
+    setScroll(sideBar)
   }
 
 

@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import HeroSection from './component/heroSection/HeroSection'
 import Header from '@/common/Header'
 import ThingsYouNeedSection from './component/thingsYouNeddSection/ThingsYouNeedSection'
@@ -10,13 +11,16 @@ import SubscribeSection from './component/subscribeSection/SubscribeSection'
 import ContactSection from '@/common/contactSection/ContactSection'
 import Footer from '@/common/Footer'
 function page() {
+
+    const [scroll,setScroll]=useState(true)
+
     return (
         <div className='w-full '>
 
             <section className="w-full flex justify-center ">
 
                 <div className=' px-7 lg:px-0 max-w-[936px] w-full'>
-                    <Header></Header>
+                    <Header  setScroll={setScroll}></Header>
                 </div>
 
             </section>

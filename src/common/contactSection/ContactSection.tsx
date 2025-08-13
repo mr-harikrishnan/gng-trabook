@@ -31,7 +31,7 @@ function ContactSection() {
 
 
 
-                    <div className="w-full mt-6 lg:mt-0 grid xs:grid-cols-2 sm:grid-cols-3 gap-8 place-items-center lg:place-items-start">
+                    <div className="w-full mt-6 lg:mt-0 grid xs:grid-cols-2 sm:grid-cols-3 gap-8">
                         {/* Column 1 */}
                         <div className="flex flex-col items-center lg:items-start">
                             <p className="cursor-pointer font-poppins-semibold text-[14.5px]">Company</p>
@@ -44,7 +44,7 @@ function ContactSection() {
                         </div>
 
                         {/* Column 2 */}
-                        <div className="flex flex-col items-center lg:items-start">
+                        <div className="flex flex-col items-center  lg:items-start">
                             <p className="cursor-pointer font-poppins-semibold text-[14.5px]">Contact</p>
                             <div className="flex flex-col gap-[13px] mt-[26px] items-center lg:items-start">
                                 <p className="cursor-pointer text-[14px] text-secondary">Help/FAQ</p>
@@ -63,6 +63,7 @@ function ContactSection() {
                             </div>
                         </div>
                     </div>
+
 
 
 

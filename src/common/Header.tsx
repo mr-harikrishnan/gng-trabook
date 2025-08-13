@@ -4,7 +4,12 @@ import React, { useState } from 'react'
 import Logo from './Logo'
 import AsideBar from './AsideBar'
 
-function Header() {
+type TypeProps = {
+  setScroll: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+
+function Header({setScroll}:TypeProps) {
 
   const [sideBar, setSideBar] = useState(false)
 
